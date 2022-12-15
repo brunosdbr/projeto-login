@@ -16,7 +16,6 @@ body, html{
     background-color: #5f2c82;
     height: 100vh;
     width: 100vw;
-    padding: 10px;
 }
 main{
     position: relative;
@@ -35,6 +34,9 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width 0.5s, heigth 0.5s;/*SERVE PARA DAR UMA ANIMAÇÃO NA TRANSIÇÃO DE TELAS */
+    transition-timing-function: ease;/*serve para dar uma suavizada na transição das telas*/
 }
 section#login > div#imagem{
     display: block;
