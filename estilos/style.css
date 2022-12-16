@@ -62,24 +62,24 @@ form > div.campo{
     margin: 5px 0px;
 }
 
-div.campo > label {
+div .campo > label {
     display: none;
 }
-div.campo > i {
+div .campo > i {
     color: white;
     font-size: 2em;
     width: 40px;
     padding: 5px;
 }
-div.campo > input {
+div .campo > input {
     background-color: #94cfcd;
     font-size: 1em;
-    width: calc(100% - 44px);
+    width: 36.3vw;
     height: 100%;
     transform: translateY(-12px);
     border: 0px;
     border-radius: 8px;
-    padding: 4px;
+    
 }
 div.campo > input:focus-within{/*ESSE 'focus-within' QUER DIZER GANHAR FOCUS, FOI USADO PARA GANHAR FOCUS AO CLICAR*/
     background-color: white;
