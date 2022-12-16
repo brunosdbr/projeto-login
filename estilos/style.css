@@ -10,21 +10,20 @@ lilás: #5f2c82
     margin: 0px;
     box-sizing: border-box;
 }
-body, html{
+body, html {
     background-color: #5f2c82;
     height: 100vh;
     width: 100vw;
 }
-main{
+main {
     position: relative;
     height: 100vh;
     width: 100vw;
 }
-section#login{
+section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;/*isso quer dizer: TUDO QUE ESTIVER FORA DA BORDA FICARA ESCONDIDO, NESSE CASO FOI A BORDA SUPERIOR QUE ESTAVA QUADRADA*/
     background-color: white;
     width: 250px;
@@ -33,26 +32,27 @@ section#login{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
     transition: width 0.5s, heigth 0.5s;/*SERVE PARA DAR UMA ANIMAÇÃO NA TRANSIÇÃO DE TELAS */
     transition-timing-function: ease;/*serve para dar uma suavizada na transição das telas*/
+    transform: translate(-50%, -50%);
 }
-section#login > div#imagem{
+section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/login.jpg) no-repeat;
     background-size: cover;
     height: 200px;
 }
-section#login > div#formulario{
+section#login > div#formulario {
     display: block;
     padding: 10px;
 
 }
-div#formulario > h1{
+div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
 }
 div#formulario > p {
     font-size: 0.8em;
 }
-form > div.campo{
+form > div.campo {
     background-color: #5f2c82;
     border: 2px solid #5f2c82;
     display: block;
@@ -76,12 +76,11 @@ div .campo > input {
     font-size: 1em;
     width: 36.3vw;
     height: 100%;
-    transform: translateY(-12px);
     border: 0px;
     border-radius: 8px;
-    
+    transform: translateY(-12px);
 }
-div.campo > input:focus-within{/*ESSE 'focus-within' QUER DIZER GANHAR FOCUS, FOI USADO PARA GANHAR FOCUS AO CLICAR*/
+div.campo > input:focus-within {/*ESSE 'focus-within' QUER DIZER GANHAR FOCUS, FOI USADO PARA GANHAR FOCUS AO CLICAR*/
     background-color: white;
 }
 form > input[type=submit] {/*os colchetes querem dizer que essa formatação servira apenas para o botão 'esqueci a senha'*/
@@ -95,10 +94,10 @@ form > input[type=submit] {/*os colchetes querem dizer que essa formatação ser
     border-radius: 5px;
     cursor: pointer;
 }
-form > input[type=submit]:hover{
+form > input[type=submit]:hover {
     background-color: #49a09d;
 }
-form > a.botao{
+form > a.botao {
     display: block;
     text-align: center;
     font-size: 1em;
