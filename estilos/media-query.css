@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 600px) and (max-width: 992px){
+@media screen and (min-width: 600px) and (max-width: 992px){/*para tablet*/
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82
         );
     }
     section#login {
         width: 90vw;
+        height: 350px;
     }
     section#login > div#imagem {
         float: left;
@@ -25,6 +26,7 @@
     }
     section#login {
         width: 992px;
+        height: 350px;
     }
     section#login > div#imagem {
         float: right;
