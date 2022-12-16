@@ -1,10 +1,8 @@
 @charset "UTF-8";
-
 /*
 PALETA DE CORES:
 verde:#49a09d
 lilás: #5f2c82
-
 */
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -28,13 +26,11 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;/*isso quer dizer: TUDO QUE ESTIVER FORA DA BORDA FICARA ESCONDIDO, NESSE CASO FOI A BORDA SUPERIOR QUE ESTAVA QUADRADA*/
-
     background-color: white;
     width: 250px;
     height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
-
     transition: width 0.5s, heigth 0.5s;/*SERVE PARA DAR UMA ANIMAÇÃO NA TRANSIÇÃO DE TELAS */
     transition-timing-function: ease;/*serve para dar uma suavizada na transição das telas*/
 }
